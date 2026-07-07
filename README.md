@@ -1,4 +1,4 @@
-# Fake News Prediction Model Comparison
+# Fake News Prediction 
 
 This project focuses on building a machine learning model to predict whether a news article is real or fake. Multiple classification algorithms were trained and evaluated based on accuracy to identify the best-performing model.
 
