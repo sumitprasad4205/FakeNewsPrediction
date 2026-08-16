@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://storage.googleapis.com/kaggle-datasets-images/7266777/11589020/9692fbe0ea1b4822642af9ddb863643d/dataset-cover.jpg?t=2025-04-27-14-59-53);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+#container{
+    height: 400px;
+}
+#form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+button{
+    padding: 5px;
+    margin: 0 auto;
+    border: 2px solid black; 
+}
+button:hover{
+    background-color: slateblue;
+}
+h2{
+    text-align: center;
+    color: green;
+}
