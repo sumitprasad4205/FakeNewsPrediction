@@ -1,20 +1,54 @@
-# Fake News Prediction 
+# 📰 Fake News Prediction
 
-This project focuses on building a machine learning model to predict whether a news article is real or fake. Multiple classification algorithms were trained and evaluated based on accuracy to identify the best-performing model.
+A machine learning and NLP project that predicts whether a news article is **Real or Fake** using **TF-IDF Vectorization** and classification algorithms.
 
-## Model Performance
+## 📊 Model Performance
 
-| Model                  | Accuracy |
-| ---------------------- | -------- |
-| LogisticRegression     | 98.2%    |
-| RandomForestClassifier | 98.9%    |
-| MultinomialNB          | 93.2%    |
+| Model                    |  Accuracy |
+| ------------------------ | --------: |
+| Logistic Regression      | **98.5%** |
+| Random Forest Classifier | **99.1%** |
 
-## Tech Stack
+**Random Forest** achieved the highest accuracy of 99.1%, while **Logistic Regression** was selected for the Flask deployment due to its strong performance and efficiency.
 
-* **Programming Language:** Python
-* **Libraries:** Pandas, NumPy, Scikit-learn
-* **Machine Learning Models:** Logistic Regression, Random Forest Classifier, Multinomial Naive Bayes
-* **NLP Techniques:** Text Preprocessing, TF-IDF Vectorization
+## 🛠️ Tech Stack
 
-This project demonstrates the application of machine learning and natural language processing techniques for accurate fake news prediction and classification.
+* **Python**
+* **Pandas, NumPy**
+* **Scikit-learn**
+* **TF-IDF Vectorization**
+* **Logistic Regression & Random Forest**
+* **Flask**
+* **HTML & CSS**
+
+## 🌐 Flask Deployment
+
+The trained **Logistic Regression model** is deployed using Flask. Users can enter news article text through a web interface and receive a **Real/Fake** prediction.
+
+## 📁 Project Structure
+
+```text
+FakeNewsPrediction/
+├── static/
+│   └── style.css
+├── templates/
+│   └── index.html
+├── app.py
+├── main.ipynb
+├── news.pkl
+└── README.md
+```
+
+## ✨ Features
+
+* Fake news classification using NLP.
+* TF-IDF text vectorization.
+* Multiple model comparison.
+* **98.5% accuracy with Logistic Regression.**
+* Flask-based web application.
+* Real-time news prediction.
+
+## 🚀 Conclusion
+
+This project demonstrates an end-to-end machine learning workflow, from **text preprocessing and model training to Flask deployment**, for detecting fake news articles.
+
